@@ -1,5 +1,6 @@
 package schoolboy917.diamonds.mod;
 
+import net.minecraftforge.client.MinecraftForgeClient;
 import schoolboy917.diamonds.mod.CommonProxyColouredDiamondsMod;
 
 public class ClientProxyColouredDiamondsMod extends CommonProxyColouredDiamondsMod
@@ -7,7 +8,7 @@ public class ClientProxyColouredDiamondsMod extends CommonProxyColouredDiamondsM
 	@Override
 	public void registerRenderThings()
 	{
-		
+		MinecraftForgeClient.preloadTexture("items/Items.png");
 	}
 
 }

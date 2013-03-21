@@ -15,14 +15,14 @@ public class ColouredDiamondsMod
 	@SidedProxy(clientSide = "schoolboy917.diamonds.mod.ClientProxyColouredDiamondsMod", serverSide = "schoolboy917.diamonds.mod.CommonProxyColouredDiamondsMod")
 	public static CommonProxyColouredDiamondsMod proxy;
 	
-	public static Item schoolboy917.diamond.modItem
+	public static Item schoolboy917.diamond.mod
 	
 	@Init
 	public void load(FMLInitializationEvent event)
 	{
 		proxy.registerRenderThings();
 		
-		schoolboy917.diamonds.modItem = new ItemWhiteDiamond(5000).setIconIndex(0).setItemName("WhiteDiamiond");
+		schoolboy917.diamonds.mod = new WhiteDiamond(5000).setIconIndex(0).setItemName("WhiteDiamiond");
 		
 		LanguageRegistry.addName(WhiteDiamond, "White Diamond");
 	}
