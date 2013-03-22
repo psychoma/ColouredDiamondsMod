@@ -3,10 +3,10 @@ package schoolboy917.diamonds.mod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemWhiteDiamond extends Item
+public class MagentaDiamond extends Item
 {
 	
-	public ItemWhiteDiamond(int id){
+	public MagentaDiamond(int id){
 		super(id);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 		//TODO Auto-generated constructor stub
