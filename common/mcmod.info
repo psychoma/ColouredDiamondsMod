@@ -1,0 +1,21 @@
+{
+  "modinfoversion": 1,
+  "modlist": [{
+    "modid": "ColouredDiamondsMod",
+    "name": "Coloured Diamonds Mod",
+    "description": "This mod adds Coloured Diamond Gems into the Minecraft world!",
+    "version": "1.0",
+    "mcversion": "1.4.7",
+    "url": "Coming Soon!",
+    "updateUrl": "",
+    "authors": ["schoolboy917"],
+    "credits": "Created by schoolboy917. Thank you for the Forge Team for making Forge-Modloader!",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": ["Forge"],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": "false"
+  }]
+}
