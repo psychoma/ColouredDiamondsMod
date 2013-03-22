@@ -1,11 +1,13 @@
 package schoolboy917.diamonds.mod;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 @Mod(modid = "ColouredDiamondsMod", name = "Coloured Diamonds Mod", version = "1.0")
@@ -71,5 +73,22 @@ public class ColouredDiamondsMod
 		LanguageRegistry.addName(GreenDiamond, "Green Diamond");
 		LanguageRegistry.addName(RedDiamond, "Red Diamond");
 		LanguageRegistry.addName(BlackDiamond, "Black Diamond");
+		
+		GameRegistry.addShapelessRecipe(new ItemStack(WhiteDiamond, 1), new ItemStack(Item.dyePowder, 1, 15), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(OrangeDiamond, 1), new ItemStack(Item.dyePowder, 1, 14), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(MagentaDiamond, 1), new ItemStack(Item.dyePowder, 1, 13), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(LightBlueDiamond, 1), new ItemStack(Item.dyePowder, 1, 12), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(YellowDiamond, 1), new ItemStack(Item.dyePowder, 1, 11), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(LimeDiamond, 1), new ItemStack(Item.dyePowder, 1, 10), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(PinkDiamond, 1), new ItemStack(Item.dyePowder, 1, 9), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(GrayDiamond, 1), new ItemStack(Item.dyePowder, 1, 8), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(LightGrayDiamond, 1), new ItemStack(Item.dyePowder, 1, 7), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(CyanDiamond, 1), new ItemStack(Item.dyePowder, 1, 6), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(PurpleDiamond, 1), new ItemStack(Item.dyePowder, 1, 5), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(BlueDiamond, 1), new ItemStack(Item.dyePowder, 1, 4), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(GreenDiamond, 1), new ItemStack(Item.dyePowder, 1, 2), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(BrownDiamond, 1), new ItemStack(Item.dyePowder, 1, 3), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(RedDiamond, 1), new ItemStack(Item.dyePowder, 1, 1), (Item.diamond));
+		GameRegistry.addShapelessRecipe(new ItemStack(BlackDiamond, 1), new ItemStack(Item.dyePowder, 1, 0), (Item.diamond));
 	}
 }
