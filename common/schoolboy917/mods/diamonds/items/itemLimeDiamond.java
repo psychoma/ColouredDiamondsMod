@@ -1,12 +1,12 @@
-package schoolboy917.diamonds.mod;
+package schoolboy917.mods.diamonds.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class YellowDiamond extends Item
+public class itemLimeDiamond extends Item
 {
 	
-	public YellowDiamond(int id){
+	public itemLimeDiamond(int id){
 		super(id);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 		//TODO Auto-generated constructor stub
@@ -14,7 +14,7 @@ public class YellowDiamond extends Item
 	
 	public String getTextureFile()
 	{
-		return "/items/Items.png";
+		return "/textures/Items.png";
 	}
 
 }
