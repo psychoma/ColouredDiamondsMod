@@ -31,10 +31,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 @Mod(modid = "ColouredDiamondsMod", name = "Coloured Diamonds Mod", version = "1.0")
-@NetworkMod(clientSideRequired = true, serverSideRequired = true)
+@NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class ColouredDiamondsMod
 {
-	@SidedProxy(clientSide = "schoolboy917.mods.diamonds.ClientProxy", serverSide = "schoolboy917.mods.diamonds.CommonProxy")
+	@SidedProxy(clientSide = "schoolboy917.mods.diamonds.client.ClientProxy", serverSide = "schoolboy917.mods.diamonds.common.CommonProxy")
 	public static CommonProxy proxy;
 	
 	public static Item itemWhiteDiamond;
@@ -67,13 +67,13 @@ public class ColouredDiamondsMod
 		itemLimeDiamond = new itemLimeDiamond(5005).setIconIndex(5).setItemName("LimeDiamond");
 		itemPinkDiamond = new itemPinkDiamond(5006).setIconIndex(6).setItemName("PinkDiamond");
 		itemGrayDiamond = new itemGrayDiamond(5007).setIconIndex(7).setItemName("GrayDiamond");
-		itemLightGrayDiamond = new itemLightGrayDiamond(5008)setIconIndex(8).setItemName("LightGrayDiamond");
+		itemLightGrayDiamond = new itemLightGrayDiamond(5008).setIconIndex(8).setItemName("LightGrayDiamond");
 		itemCyanDiamond = new itemCyanDiamond(5009).setIconIndex(9).setItemName("CyanDiamond");
 		itemPurpleDiamond = new itemPurpleDiamond(5010).setIconIndex(10).setItemName("PurpleDiamond");
 		itemBlueDiamond = new itemBlueDiamond(5011).setIconIndex(11).setItemName("BlueDiamond");
 		itemBrownDiamond = new itemBrownDiamond(5012).setIconIndex(12).setItemName("BrownDiamond");
 		itemGreenDiamond = new itemGreenDiamond(5013).setIconIndex(13).setItemName("GreenDiamond");
-		itemRedDiamond = (new itemRedDiamond(5014).setIconIndex(14).setItemName("RedDiamond");
+		itemRedDiamond = new itemRedDiamond(5014).setIconIndex(14).setItemName("RedDiamond");
 		itemBlackDiamond = new itemBlackDiamond(5015).setIconIndex(15).setItemName("BlackDiamond");
 		
 		
