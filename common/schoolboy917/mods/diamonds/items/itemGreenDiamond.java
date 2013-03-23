@@ -1,12 +1,12 @@
-package schoolboy917.diamonds.mod;
+package schoolboy917.mods.diamonds.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class OrangeDiamond extends Item
+public class itemGreenDiamond extends Item
 {
 	
-	public OrangeDiamond(int id){
+	public itemGreenDiamond(int id){
 		super(id);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 		//TODO Auto-generated constructor stub
@@ -18,4 +18,3 @@ public class OrangeDiamond extends Item
 	}
 
 }
-
