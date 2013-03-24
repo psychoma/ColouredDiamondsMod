@@ -14,7 +14,7 @@ public class itemLightBlueDiamond extends Item
 	
 	public String getTextureFile()
 	{
-		return "/textures/gems/diamond_light_blue.png";
+		return "/textures/gems/gems.png";
 	}
 
 }
