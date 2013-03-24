@@ -60,21 +60,21 @@ public class ColouredDiamondsMod
 		proxy.registerRenderThings();
 		
 		itemWhiteDiamond =  new itemWhiteDiamond(5000).setIconIndex(0).setItemName("WhiteDiamond");
-		itemOrangeDiamond = new itemOrangeDiamond(5001).setIconIndex(1).setItemName("OrangeDiamond");
-		itemMagentaDiamond = new itemMagentaDiamond(5002).setIconIndex(2).setItemName("MagentaDiamond");
-		itemLightBlueDiamond = new itemLightBlueDiamond(5003).setIconIndex(3).setItemName("LightBlueDiamond");
-		itemYellowDiamond = new itemYellowDiamond(5004).setIconIndex(4).setItemName("YellowDiamond");
-		itemLimeDiamond = new itemLimeDiamond(5005).setIconIndex(5).setItemName("LimeDiamond");
-		itemPinkDiamond = new itemPinkDiamond(5006).setIconIndex(6).setItemName("PinkDiamond");
-		itemGrayDiamond = new itemGrayDiamond(5007).setIconIndex(7).setItemName("GrayDiamond");
-		itemLightGrayDiamond = new itemLightGrayDiamond(5008).setIconIndex(8).setItemName("LightGrayDiamond");
-		itemCyanDiamond = new itemCyanDiamond(5009).setIconIndex(9).setItemName("CyanDiamond");
-		itemPurpleDiamond = new itemPurpleDiamond(5010).setIconIndex(10).setItemName("PurpleDiamond");
-		itemBlueDiamond = new itemBlueDiamond(5011).setIconIndex(11).setItemName("BlueDiamond");
-		itemBrownDiamond = new itemBrownDiamond(5012).setIconIndex(12).setItemName("BrownDiamond");
-		itemGreenDiamond = new itemGreenDiamond(5013).setIconIndex(13).setItemName("GreenDiamond");
-		itemRedDiamond = new itemRedDiamond(5014).setIconIndex(14).setItemName("RedDiamond");
-		itemBlackDiamond = new itemBlackDiamond(5015).setIconIndex(15).setItemName("BlackDiamond");
+		itemOrangeDiamond = new itemOrangeDiamond(5001).setIconIndex(0).setItemName("OrangeDiamond");
+		itemMagentaDiamond = new itemMagentaDiamond(5002).setIconIndex(0).setItemName("MagentaDiamond");
+		itemLightBlueDiamond = new itemLightBlueDiamond(5003).setIconIndex(0).setItemName("LightBlueDiamond");
+		itemYellowDiamond = new itemYellowDiamond(5004).setIconIndex(0).setItemName("YellowDiamond");
+		itemLimeDiamond = new itemLimeDiamond(5005).setIconIndex(0).setItemName("LimeDiamond");
+		itemPinkDiamond = new itemPinkDiamond(5006).setIconIndex(0).setItemName("PinkDiamond");
+		itemGrayDiamond = new itemGrayDiamond(5007).setIconIndex(0).setItemName("GrayDiamond");
+		itemLightGrayDiamond = new itemLightGrayDiamond(5008).setIconIndex(0).setItemName("LightGrayDiamond");
+		itemCyanDiamond = new itemCyanDiamond(5009).setIconIndex(0).setItemName("CyanDiamond");
+		itemPurpleDiamond = new itemPurpleDiamond(5010).setIconIndex(0).setItemName("PurpleDiamond");
+		itemBlueDiamond = new itemBlueDiamond(5011).setIconIndex(0).setItemName("BlueDiamond");
+		itemBrownDiamond = new itemBrownDiamond(5012).setIconIndex(0).setItemName("BrownDiamond");
+		itemGreenDiamond = new itemGreenDiamond(5013).setIconIndex(0).setItemName("GreenDiamond");
+		itemRedDiamond = new itemRedDiamond(5014).setIconIndex(0).setItemName("RedDiamond");
+		itemBlackDiamond = new itemBlackDiamond(5015).setIconIndex(0).setItemName("BlackDiamond");
 		
 		
 		LanguageRegistry.addName(itemWhiteDiamond, "White Diamond");
