@@ -1,7 +1,7 @@
 package schoolboy917.mods.diamonds.items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import schoolboy917.mods.diamonds.misc.DiamondsTab;
 
 
 public class itemWhiteDiamond extends Item
@@ -9,7 +9,7 @@ public class itemWhiteDiamond extends Item
 	
 	public itemWhiteDiamond(int id){
 		super(id);
-		setCreativeTab(CreativeTabs.tabMaterials);
+		setCreativeTab(DiamondsTab.tabDiamondsMod);
 	}
 
 	public String getTextureFile()
