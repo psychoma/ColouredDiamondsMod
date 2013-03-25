@@ -3,6 +3,7 @@ package schoolboy917.mods.diamonds;
 
 
 //Mod Imports
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import schoolboy917.mods.diamonds.common.CommonProxy;
@@ -30,7 +31,7 @@ import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = "ColouredDiamondsMod", name = "Coloured Diamonds Mod", version = "1.1.1")
+@Mod(modid = "ColouredDiamondsMod", name = "Coloured Diamonds Mod", version = "2.0.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class ColouredDiamondsMod
 {
@@ -54,6 +55,23 @@ public class ColouredDiamondsMod
 	public static Item itemRedDiamond;
 	public static Item itemBlackDiamond;
 	
+	public static Block blockWhiteDiamondBlock;
+	public static Block blockOrangeDiamondBlock;
+	public static Block blockMagentaDiamondBlock;
+	public static Block blockLightBlueDiamondBlock;
+	public static Block blockYellowDiamondBlock;
+	public static Block blockLimeDiamondBlock;
+	public static Block blockPinkDiamondBlock;
+	public static Block blockGrayDiamondBlock;
+	public static Block blockLightGrayDiamondBlock;
+	public static Block blockCyanDiamondBlock;
+	public static Block blockPurpleDiamondBlock;
+	public static Block blockBlueDiamondBlock;
+	public static Block blockBrownDiamondBlock;
+	public static Block blockGreenDiamondBlock;
+	public static Block blockRedDiamondBlock;
+	public static Block blockBlackDiamondBlock;
+	
 	@Init
 	public void load(FMLInitializationEvent event)
 	{
@@ -75,7 +93,6 @@ public class ColouredDiamondsMod
 		itemGreenDiamond = new itemGreenDiamond(7569).setIconIndex(13).setItemName("itemGreenDiamond");
 		itemRedDiamond = new itemRedDiamond(7571).setIconIndex(14).setItemName("itemRedDiamond");
 		itemBlackDiamond = new itemBlackDiamond(7572).setIconIndex(15).setItemName("itemBlackDiamond");
-		
 		
 		LanguageRegistry.addName(itemWhiteDiamond, "White Diamond");
 		LanguageRegistry.addName(itemOrangeDiamond, "Orange Diamond");
